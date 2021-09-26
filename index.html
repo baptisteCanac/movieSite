@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>myMovie</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+</head>
+<body>
+	<div id="app">
+		<div class="header">
+			<input type="text" name="searchInput" class="searchMovie" id="searchMovie" placeholder="Search a movie...">
+		</div>
+		<div class="filters">
+			<div class="displayInline selectFilms">
+				<input type="checkbox" name="films" id="films" class="displayInline">
+				films
+			</div>
+			<div class="displayInline selectSeries">
+				<input type="checkbox" class="displayInline" id="series" name="series">
+				series
+			</div>
+			<div class="displayInline submitButton">
+				<button onclick="submitFilter()" class="submitFilters">submit</button>
+			</div>
+		</div>
+		<div class="container noSelectableText">
+			<div class="displayInline oneFilmContainer" title="iron man 1" id="ironMan1">
+				<img class="displayInline img" src="ressources/ironMan1.jpg">
+			</div>
+
+			<div class="displayInline oneFilmContainer" title="Peaky Blinder" id="peakyBlinders">
+				<img class="displayInline img" src="ressources/peakyBLinder.png">
+			</div>
+
+			<div class="displayInline oneFilmContainer" title="Prison Break" id="prisonBreak">
+				<img class="displayInline img" src="ressources/prisonBreak.jpg">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

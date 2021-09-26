@@ -1,0 +1,78 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #181E23;
+	font-family: sans-serif;
+	color: #fff;
+}
+.noSelectableText{
+	user-select: none;/* Chrome */
+	-webkit-user-select: none;/* safari */
+	-moz-user-select: none;/* Firefox */
+	-ms-user-select: none;/* Internet Explorer */
+}
+.displayInline{
+	display: inline;
+}
+.header{
+	display: flex;
+	justify-content: center;
+	padding-top: 1%;
+	padding-bottom: 0.5%;
+}
+#searchMovie{
+	width: 40%;
+	font-size: 2em;
+	outline: none;
+	font-weight: bold;
+	border-radius: 5px;
+	transition-duration: 1s;
+	border: 1px solid transparent;
+}
+#searchMovie:focus{
+	border-radius: 50px;
+	transition-duration: 1s;
+}
+.oneFilmContainer{
+	margin: 5px;
+	cursor: pointer;
+}
+.img{
+	width: 13%;
+	border-radius: 5px;
+	border: 1px solid transparent;
+	transition-duration: 0.5s;
+}
+.img:hover{
+	border: 1px solid #fff;
+	transition-duration: 0.5s;
+}
+input[type="checkbox"]{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.filters{
+	font-size: 1.5em;
+	padding-bottom: 1%;
+	border-bottom: 1px solid #fff;
+}
+.submitFilters{
+	color: #fff;
+	height: 40px;
+	width: 150px;
+	font-size: 1.3em;
+	border-radius: 5px;
+	border: 1px solid transparent;
+	background: #2466AA;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+.submitFilters:hover{
+	border: 1px solid #fff;
+	background: #144A9E;
+	transition-duration: 0.5s;
+}
+.container{
+	padding-top: 1%;
+}
